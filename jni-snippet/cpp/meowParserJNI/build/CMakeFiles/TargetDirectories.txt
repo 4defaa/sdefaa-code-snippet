@@ -1,0 +1,9 @@
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/Experimental.dir
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/Nightly.dir
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/Continuous.dir
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/NightlyMemoryCheck.dir
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/meowParserJNI.dir
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/PACKAGE.dir
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/RUN_TESTS.dir
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/ALL_BUILD.dir
+E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParserJNI/build/CMakeFiles/ZERO_CHECK.dir

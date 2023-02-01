@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8EF49EB5-14A8-32F7-ACB9-78F3AA104700}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>meowParser</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">meowParser.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">meowParser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">meowParser.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">meowParser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">meowParser.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">meowParser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">meowParser.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">meowParser</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser -BE:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/build --check-stamp-file E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CPack.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CPackComponent.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTest.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTestTargets.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTestUseLaunchers.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\DartConfiguration.tcl.in;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.25\Templates\CPackConfig.cmake.in;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser -BE:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/build --check-stamp-file E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CPack.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CPackComponent.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTest.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTestTargets.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTestUseLaunchers.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\DartConfiguration.tcl.in;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.25\Templates\CPackConfig.cmake.in;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser -BE:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/build --check-stamp-file E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CPack.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CPackComponent.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTest.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTestTargets.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTestUseLaunchers.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\DartConfiguration.tcl.in;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.25\Templates\CPackConfig.cmake.in;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser -BE:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/build --check-stamp-file E:/Workspace/IdeaProjects/creative-explorer-all/sdefaa-code-snippet/jni-snippet/cpp/meowParser/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CPack.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CPackComponent.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTest.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTestTargets.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\CTestUseLaunchers.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\DartConfiguration.tcl.in;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.25\Templates\CPackConfig.cmake.in;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\3.25.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\meowParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\ZERO_CHECK.vcxproj">
+      <Project>{4C92AC5E-B60B-33AD-BD26-FCABFF5FA174}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

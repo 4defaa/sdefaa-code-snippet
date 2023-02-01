@@ -8,6 +8,9 @@
     <artifactId>sdefaa-code-snippet</artifactId>
     <version>1.0.0-RELEASE</version>
     <packaging>pom</packaging>
+    <modules>
+        <module>jni-snippet</module>
+    </modules>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>

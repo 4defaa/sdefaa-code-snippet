@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\ae4f919bb204801f1e8ba777b2dc0c3d\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Workspace\IdeaProjects\creative-explorer-all\sdefaa-code-snippet\jni-snippet\cpp\meowParser\build\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{578CBC15-43CD-3862-8B7C-DBA238E9D09E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
